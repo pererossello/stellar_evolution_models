@@ -1,0 +1,134 @@
+\documentclass{anotherarticlestyle}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{cleveref}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{mathtools}
+\usepackage{booktabs} % for prettier tables
+\usepackage{array}    % for defining a new column type
+\setlist[itemize]{topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=3pt}
+\setlist[enumerate]{topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=3pt}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+
+
+\title{Stellar Evolution Models}
+\author{P. Rosselló$^{1,*}$}
+\correspondence{alu0101693057@ull.edu.es}
+\affiliations{Universidad de La Laguna}
+\header{Assignment}
+
+\leftheader{Estructura y Evolución Estelar}
+\rightheader{Master degree in Astrophysics}
+
+\setlength{\headheight}{13.6pt}
+\addtolength{\topmargin}{-1.6pt}
+
+
+\setlength{\parindent}{0pt}
+%set paragraph spacing
+\setlength{\parskip}{1em}
+
+
+\titlespacing*{\section}{0pt}{20pt}{0pt}
+\titlespacing*{\subsection}{0pt}{20pt}{0pt}
+
+\captionsetup[table]{skip=5pt}
+\captionsetup[figure]{skip=3pt}
+
+\begin{document}
+
+\maketitle
+
+\begin{strip}
+    \begin{abstract}
+        {\small
+            Assignment for the subject \textit{Estructura y Evolución Estelar} of the Master degree in Astrophysics at Universidad de La Laguna (ULL).
+        }
+    \end{abstract}
+\end{strip}
+
+
+
+
+\section{Introduction}
+\input{sections/intro}
+
+\section{Results}
+\input{sections/results}
+\newpage
+\section{Code Repository}
+The code used to produce the results in this assignment can be found at \url{https://github.com/pererossello/stellar_evolution_models}.
+
+\newpage
+\pagebreak
+\onecolumn
+\twocolumn
+
+
+\section*{References}
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+
+% \onecolumn
+% \twocolumn
+% \newpage
+% \pagebreak
+% \section*{Appendix}
+% \input{sections/appendix}
+
+
+
+% Comment if you don't want Supplementary Tables or Figures
+
+% \onecolumn
+% \newpage
+% \pagebreak
+% \section*{Supplementary Tables}
+% \input{sections/supplementary_tabs}
+
+% \twocolumn
+% \onecolumn
+% \newpage
+% \pagebreak
+% \section*{Supplementary Figures}
+% \input{sections/supplementary}
+
+
+
+\end{document}
+
+
+
+% 
+
+% \section{Methodology}
+
+% \input{sections/methods}
+% \section{Results and Discussion}
+% \input{sections/results_and_discussion}
+
+% \section{Conclusions}
+
+% \input{sections/conclusions}
+
+
+
+
+
+% \onecolumn
+% \newpage
+% \pagebreak
+% \section*{Supplementary Tables}
+% \input{sections/supplementary_tabs}
+
+% \twocolumn
+% \onecolumn
+% \newpage
+% \pagebreak
+% \section*{Supplementary Figures}
+% \input{sections/supplementary}

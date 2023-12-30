@@ -1,0 +1,24 @@
+In this assignment we analyze the output of stellar models from \citep{ekstrom2012grids} for non-rotating stars with solar metallicities ($Z=0.014$).
+The model output consists of one-dimensional time-series
+\begin{equation}
+    S = \{ S_i \}_{i=1}^N
+\end{equation}
+for a given physical magnitude $S$ of a star. $N$ is the number of time-steps in the simulation, which changes from model to model; and $S_i$ is the value of $S$ at time-step $i$. The physical magnitudes we will be working with in the subsequent analysis are:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c p{5cm}}
+        \( t \)                        & Age of the star.                                                                                         \\
+        \( X \)                        & Mass fraction of \( ^1{\rm He} \) in the star's core.                                                    \\
+        \( Y \)                        & Mass fraction of \( ^4{\rm He} \) in the core.                                                           \\
+        \( Z^{\left({\rm C}\right)} \) & Sum of the mass fractions of \( ^{12}{\rm C} \) and \( ^{13}{\rm C} \) in the core.                      \\
+        \( Z^{\left({\rm O}\right)} \) & Sum of the mass fractions of \( ^{16}{\rm O} \), \( ^{17}{\rm O} \), and \( ^{18}{\rm O} \) in the core. \\
+        \( T_{\rm eff} \)              & Effective Temperature.                                                                                   \\
+        \( L \)                        & Luminosity.                                                                                              \\
+        \( T_{\rm c} \)                & Core Temperature.                                                                                        \\
+        \( \rho_{\rm c} \)             & Core Density.                                                                                            \\
+    \end{tabular}
+    \label{tab:parameters}
+\end{table}
+Stellar model integration starts at the Zero-Age-Main-Sequence (ZAMS), so \( t_1 \) corresponds to the ZAMS. Also, it is worth mentioning that the time resolution
+\(\Delta t_i \equiv t_i - t_{i-1} \)
+is not constant through the simulation, as it is determined by an adaptive time-step algorithm. The integration for the stellar models ends at the core helium flash for low mass stars, at the early Asymptotic Giant Branch (AGB) for medium mass stars, and at the end of the central carbon burning phase for high mass stars.

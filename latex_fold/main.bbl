@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ekstr{\"o}m et~al.(2012)Ekstr{\"o}m, Georgy, Eggenberger, Meynet,
+  Mowlavi, Wyttenbach, Granada, Decressin, Hirschi, Frischknecht,
+  et~al.]{ekstrom2012grids}
+Sylvia Ekstr{\"o}m, Cyril Georgy, Patrick Eggenberger, Georges Meynet, Nami
+  Mowlavi, Aur{\'e}lien Wyttenbach, Anah{\'\i} Granada, Thibaut Decressin,
+  Raphael Hirschi, Urs Frischknecht, et~al.
+\newblock Grids of stellar models with rotation-i. models from 0.8 to 120 m at
+  solar metallicity (z= 0.014).
+\newblock \emph{Astronomy \& Astrophysics}, 537:\penalty0 A146, 2012.
+
+\end{thebibliography}
