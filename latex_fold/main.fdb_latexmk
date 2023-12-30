@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1703900664 "main.aux" "main.bbl" "main" 1703900681 0
+["bibtex main"] 1703900664 "main.aux" "main.bbl" "main" 1703901051 0
   "./refs.bib" 1703899595 528 07aefe8acfa57dedef35004ec5164bc9 ""
   "C:/Users/Pere/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284451856 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1703900680 9545 78fdc6cbf57a8e68f2761bdcdd17da6e "pdflatex"
+  "main.aux" 1703901051 9545 78fdc6cbf57a8e68f2761bdcdd17da6e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1703900679 "c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/main.tex" "main.pdf" "main" 1703900681 0
+["pdflatex"] 1703901049 "c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/main.tex" "main.pdf" "main" 1703901051 0
   "../figures/HR_plot.png" 1703863733 93648 bd0fc1ae5bf684aa17a75a352e65cfcf ""
   "../figures/abundances.png" 1703857844 66561 358883b538db308315f80527d93ce48f ""
   "../figures/ex4.png" 1703785591 186469 d3945809e6e0830d3ae76afa9ff1a5d8 ""
@@ -219,12 +219,12 @@
   "C:/Users/Pere/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695379486 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Pere/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695379486 20785 f7d1133a287929598a897c93f8f4c44b ""
   "anotherarticlestyle.cls" 1703857177 6652 6c91c2a24140f28bd33f1c5bf4d65738 ""
-  "c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/main.tex" 1703900678 2553 aa9a040ba453484fcb86761cdca21d52 ""
+  "c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/main.tex" 1703901048 2727 f517280cb23900112fd6a62cd3dd991c ""
   "logos/logo_ull.jpg" 1698138434 46282 f91e22cb3e113fd3ff5818ec02285ff3 ""
-  "main.aux" 1703900680 9545 78fdc6cbf57a8e68f2761bdcdd17da6e "pdflatex"
+  "main.aux" 1703901051 9545 78fdc6cbf57a8e68f2761bdcdd17da6e "pdflatex"
   "main.bbl" 1703900664 839 ebf9058371d623c34bbd4e2a0b0823bb "bibtex main"
-  "main.out" 1703900680 1230 136b479926116383b097160d1df5930c "pdflatex"
-  "main.tex" 1703900678 2553 aa9a040ba453484fcb86761cdca21d52 ""
+  "main.out" 1703901051 1230 136b479926116383b097160d1df5930c "pdflatex"
+  "main.tex" 1703901048 2727 f517280cb23900112fd6a62cd3dd991c ""
   "sections/intro.tex" 1703899928 2530 86538a65ca000e8f00f0fc366c627bf7 ""
   "sections/results.tex" 1703900659 20099 cc54acc7f1ceaacfddb0cff8415fd129 ""
   (generated)
