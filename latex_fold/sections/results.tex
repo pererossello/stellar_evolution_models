@@ -1,22 +1,19 @@
 \subsection{Main Sequence of $5 \, {\rm \textbf{M}}_\odot$ and $9 \,{\rm \textbf{M}}_\odot$ Stars}
-
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1.0\columnwidth]{../figures/abundances.png}  % adjust the width as you like
     \caption{\small Abundances of H (solid line) and He (dashed line) over time for a $5 \, {\rm M}_\odot$ star (red) and a $9\, {\rm M}_\odot$ star.}
     \label{fig:abundances}
 \end{figure}
+We start by looking at the abundances of Hydrogen, $X$ and Helium, $Y$, for a $5 \, {\rm M}_\odot$ star and a $9 \, {\rm M}_\odot$ star. Results are represented in Figure \ref{fig:abundances}. We see how $X$ decreases significantly faster for $ 9 \,{\rm M}_\odot$ than for $5 \,{\rm M}_\odot$.
 
-We start by looking at the abundances of Hydrogen, $X$ and Helium, $Y$, over time for a $5 \, {\rm M}_\odot$ star and a $9 \, {\rm M}_\odot$ star. Results are represented in Figure \ref{fig:abundances}. We observe how $X$ decreases significantly faster for the $ 9 \,{\rm M}_\odot$ star than for the $5 \,{\rm M}_\odot$ star.
-
-Looking at the H abundance allows us to define the MS lifetime of a star, $\tau_{\rm MS}$, as the length of time the star is steadily burning H in its core, with the MS ending with H core-exhaustion. In regards to the stellar models we are working with, $\tau_{\rm MS}$ can be formally defined as
+The H abundance allows us to define the MS lifetime of a star, $\tau_{\rm MS}$, as the time the star is steadily burning H in its core, with the MS ending with H core-exhaustion. For the stellar models we are working with, $\tau_{\rm MS}$ can be defined as
 \begin{align}
     \tau_{\rm MS} & = t_n - t_0 \ , \ \ {\rm where}                                                              \notag              \\
     n             & = {\rm min}\{i\in \mathbb{N} \ | \  1 \leq i \leq N \ {\rm and} \ X_i < \varepsilon\} \ . \label{eq:MS_lifetime}
 \end{align}
-for a given cutoff H exhaustion abundance, $\varepsilon$. That is, it is defined as the length of time it takes for the H abundance,
+for a given cutoff H exhaustion abundance, $\varepsilon$. That is, it is defined as the time it takes for the H abundance,
 $X$, to drop below $\varepsilon$. Choosing $\epsilon = 10^{-3}$ we find that $\tau_{\rm MS} = 8.82 \times 10^6$ yr for a $5 \, {\rm M}_\odot$ star and $\tau_{\rm MS} = 2.63 \times 10^6$ yr for a $9 \, {\rm M}_\odot$ star. The MS lifetime is shorter for the more massive star, which is in accordance with the H-burning rates observed in Figure \ref{fig:abundances}. This result is expected as more massive stars have higher H-burning rates, due to the higher temperatures and pressures in their cores that allow for the CNO fusion cycle to take place. Low mass stars, on the other hand, burn H through the $p\text{--}p$ chain reaction, which is less efficient than the CNO cycle and leads to longer MS lifetimes.
-
 % \onecolumn
 % \twocolumn
 

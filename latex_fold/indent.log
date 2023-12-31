@@ -1,0 +1,37 @@
+INFO:  latexindent.pl version 3.23.3, 2023-10-13, a script to indent .tex files
+       latexindent.pl lives here: C:/Users/Pere/AppData/Local/Programs/MiKTeX/scripts/latexindent/
+       Sun Dec 31 02:19:39 2023
+       Filename: c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/sections/__latexindent_temp_results.tex
+INFO:  Processing switches:
+       -y|--yaml: YAML settings specified via command line
+       -c|--cruft: cruft directory
+INFO:  Directory for backup files and c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold//indent.log:
+       c:/Users/Pere/Documents/ULL/subjects/q1/estructura_y_evolucion_estelar_O/projects/stellar_evolution_models/latex_fold/
+INFO:  Perl modules are being loaded from the following directories:
+       C:/Strawberry/perl/lib/FindBin.pm
+       C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm
+       C:/Strawberry/perl/lib/File/Copy.pm
+       C:/Strawberry/perl/lib/File/Basename.pm
+       C:/Strawberry/perl/lib/Getopt/Long.pm
+       C:/Strawberry/perl/vendor/lib/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       C:/Users/Pere/AppData/Local/Programs/MiKTeX/scripts/latexindent/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/Users/Pere/AppData/Local/Programs/MiKTeX/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is C:\Users\Pere
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  YAML settings read: -y switch
+       YAML setting: defaultIndent:'    '
+       single-quoted string found in -y switch: '    ', substitute to     
+       Updating mainSettings with defaultIndent:     
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl
