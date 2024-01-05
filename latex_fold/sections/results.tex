@@ -7,13 +7,15 @@
 \end{figure}
 We start by looking at the abundances of Hydrogen, $X$ and Helium, $Y$, for a $5 \, {\rm M}_\odot$ star and a $9 \, {\rm M}_\odot$ star. Results are represented in Figure \ref{fig:abundances}. We see how $X$ decreases significantly faster for $ 9 \,{\rm M}_\odot$ than for $5 \,{\rm M}_\odot$.
 
-The H abundance allows us to define the MS lifetime of a star, $\tau_{\rm MS}$, as the time the star is steadily burning H in its core, with the MS ending with H core-exhaustion. For the stellar models we are working with, $\tau_{\rm MS}$ can be defined as
+The H abundance allows us to define the MS lifetime of a star, $\tau_{\rm MS}$, as the time the star is steadily burning H in its core, with the MS ending with H core-exhaustion.
+%\footnote{This is an approximation, as the last stages of H-burning may not be considered MS due to Kelvin-Helmholtz contraction}
+For the stellar models we are working with, $\tau_{\rm MS}$ can be defined as
 \begin{align}
-    \tau_{\rm MS} & = t_n - t_0 \ , \ \ {\rm where}                                                              \notag              \\
+    \tau_{\rm MS} & = t_n - t_1 \ , \ \ {\rm where}                                                              \notag              \\
     n             & = {\rm min}\{i\in \mathbb{N} \ | \  1 \leq i \leq N \ {\rm and} \ X_i < \varepsilon\} \ . \label{eq:MS_lifetime}
 \end{align}
 for a given cutoff H exhaustion abundance, $\varepsilon$. That is, it is defined as the time it takes for the H abundance,
-$X$, to drop below $\varepsilon$. Choosing $\epsilon = 10^{-3}$ we find that $\tau_{\rm MS} = 8.82 \times 10^6$ yr for a $5 \, {\rm M}_\odot$ star and $\tau_{\rm MS} = 2.63 \times 10^6$ yr for a $9 \, {\rm M}_\odot$ star. The MS lifetime is shorter for the more massive star, which is in accordance with the H-burning rates observed in Figure \ref{fig:abundances}. This result is expected as more massive stars have higher H-burning rates, due to the higher temperatures and pressures in their cores that allow for the CNO fusion cycle to take place. Low mass stars, on the other hand, burn H through the $p\text{--}p$ chain reaction, which is less efficient than the CNO cycle and leads to longer MS lifetimes.
+$X$, to drop below $\varepsilon$. Choosing $\epsilon = 10^{-3}$ we find that $\tau_{\rm MS} = 8.82 \times 10^6$ yr for a $5 \, {\rm M}_\odot$ star and $\tau_{\rm MS} = 2.63 \times 10^6$ yr for a $9 \, {\rm M}_\odot$ star. The MS lifetime is shorter for the more massive star, which is in accordance with the H-burning rates observed in Figure \ref{fig:abundances}. This result is expected as more massive stars have higher H-burning rates, due to the higher temperatures and pressures in their cores that allow for the CNO fusion cycle to take place. Low mass stars, on the other hand, burn H through the $p\text{--}p$ chain reaction, which is less efficient and leads to longer MS lifetimes.
 % \onecolumn
 % \twocolumn
 
@@ -54,13 +56,13 @@ $X$, to drop below $\varepsilon$. Choosing $\epsilon = 10^{-3}$ we find that $\t
 
 \newpage
 
-Stellar evolution tracks for different stellar masses are represented in Figure \ref{fig:HR_plot} (Top). The values of the Zero-Age-MS (MS) and Terminal-Age-MS (TAMS) are represented in \ref{fig:HR_plot} (Bottom), with values in Table \ref{tab:ages}. Integration of stellar models starts at the ZAMS, thus ${\rm ZAMS} = t_1$ for all models. The TAMS is defined as the time at which the star has exhausted all of its H in the core, thus ${\rm TAMS} = t_n$ for all models, with $n$ being the index defined in Eq. \eqref{eq:MS_lifetime} for an H-exhaustion cutoff $\varepsilon=10^{-3}$.
+Stellar evolution tracks for different stellar masses are represented in Figure \ref{fig:HR_plot} (Top). The ZAMS and Terminal-Age-MS (TAMS) are represented in \ref{fig:HR_plot} (Bottom), with values in Table \ref{tab:ages}. The TAMS is defined as the time at which the star has exhausted all of its H in the core, thus ${\rm TAMS} = t_n$ for all models, with $n$ being the index defined in Eq. \eqref{eq:MS_lifetime} for an H-exhaustion cutoff $\varepsilon=10^{-3}$.
 
-High stellar mass stars have significantly shorter MS lifetimes than low stellar mass stars. The MS lifetime for the the  $0.8 \, {\rm M}_\odot$ star model is $21.46$ Gyr, while the MS lifetime for the $\sim 40 \, {\rm M}_\odot$ star is $4.44$ Myr, more than 4 orders of magnitude shorter. The main reason is that high mass stars have higher core concentration and temperature which leads to more efficient nuclear reactions. This is reflected in the fact that the nuclear reaction rate is given by
+High mass stars have significantly shorter MS lifetimes than low stellar mass stars. The MS lifetime for the the  $0.8 \, {\rm M}_\odot$ star model is $21.46$ Gyr, while the MS lifetime for the $\sim 40 \, {\rm M}_\odot$ star is $4.44$ Myr, more than 4 orders of magnitude shorter. The main reason is that high mass stars have higher core concentration and temperature which leads to more efficient nuclear reactions. This is reflected in the fact that the nuclear reaction rate is given by
 \begin{equation}
     q_{\rm nuc} \propto \rho T^n \ ,
 \end{equation}
-with $n$ depending on the nuclear reaction, which in itself depends also on $T$. For the $p\text{--}p$ chain, $n=4$, while for the CNO cycle, $n=16$.
+with $n$ depending on the nuclear reaction, which in itself also depends on $T$. For the $p\text{--}p$ chain, $n=4$, while for the CNO cycle, $n=16$.
 
 %the fact that high mass stars have higher H-burning rates, as they have higher temperatures and pressures in their cores that allow for the CNO fusion cycle to take place. Low mass stars, on the other hand, burn H through the $p\text{--}p$ chain reaction, which is less efficient than the CNO cycle and leads to longer MS lifetimes.
 
@@ -75,7 +77,7 @@ We now analyze the $\log L \text{--} \log M$, $\log T_c \text{--} \log M$ and $\
     \beta  & \equiv \frac{\log \rho_c}{\log M} \ ,  \label{eq:beta} \\
     \gamma & \equiv \frac{\log T_c}{\log M} \ . \label{eq:gamma}
 \end{align}
-to be the slopes of the $\log L \text{--} \log M$, $\log T_c \text{--} \log M$ and $\log \rho_c \text{--} \log M$ relations for the stellar models at the ZAMS. We compute each slope ($\alpha$, $\beta$ and $\gamma$) for sets of low, mid and high mass stars. The (rough) criteria for mass classification is as follows:
+to be the slopes of the $\log L \text{--} \log M$, $\log T_c \text{--} \log M$ and $\log \rho_c \text{--} \log M$ relations respectively for the stellar models at the ZAMS. We compute each slope ($\alpha$, $\beta$ and $\gamma$) for sets of low, mid and high mass stars. The (rough) criteria for mass classification is as follows:
 \begin{itemize}
     \item \textbf{Low mass}: $0.35 \, {\rm M}_\odot < M < 2 \, {\rm M}_\odot$. Stars that burn H through the $p\text{--}p$ chain reaction and are governed by a Kramers opacity law.
     \item \textbf{Mid mass}: $ 2 \, {\rm M}_\odot \leq M < 10 \, {\rm M}_\odot$. Stars that burn H through the CNO cycle and are governed by a Kramers opacity law.
@@ -91,13 +93,13 @@ where $n$ refers to the exponent of the temperature in the the nuclear burning r
 \begin{align}
     \alpha & = 3                 \\
     \beta  & =  \frac{6-2n}{3+n} \\
-    \gamma & =  \frac{-4}{n+3}
+    \gamma & =  \frac{4}{n+3}
 \end{align}
 where we always set $n=16$ as high mass stars burn H through the CNO cycle.
 
-The comparison between values found from the stellar model data and homology relations is represented in Table \ref{tab:regression}. We find that the slopes for the $\log L \text{--} \log M$ relation are in somewhat good agreement with the homology relations for all mass ranges, with the highest relative error being $0.297$ for mid mass stars.
+The comparison between values found from the stellar model data and homology relations can be found in Table \ref{tab:regression}. We find that the slopes for the $\log L \text{--} \log M$ relation are in somewhat good agreement with the homology relations for all mass ranges, with the highest relative error being $0.297$ for mid mass stars.
 The slopes for the $\log \rho_c \text{--} \log M$ found from the homology relations fail for low and high mass stars. We believe this is due to the rather wild assumption of associating the density of the star with the density in the core when deriving these relations (see footnote).
-Finally, the slopes for the $\log T_c \text{--} \log M$ relation are also in somewhat good agreement, with the highest deviation occurring for high mass stars (0.325 relative error).
+Finally, the slopes for the $\log T_c \text{--} \log M$ relation are also in somewhat good agreement, with the highest deviation occurring for high mass stars (0.325 relative error). The relatively high relative errors between these relations are expected, as homology relations are derived from a series of assumptions that do not necessarily hold for the model stars, such as not considering convection and assuming a constant opacity law for the whole star.
 
 
 %The slopes for the $\log \rho_c \text{--} \log M$ relation are in good agreement for low and mid mass stars, but not for high mass stars. Finally, the slopes for the $\log T_c \text{--} \log M$ relation are in good agreement for low mass stars, but not for mid and high mass stars. The slopes for the $\log T_c \text{--} \log M$ relation are the least accurate, which is expected as the temperature in the core is not constant throughout the simulation, and thus the slope is not constant either. The slopes for the $\log \rho_c \text{--} \log M$ relation are more accurate, as the density in the core is more constant than the temperature. Finally, the slopes for the $\log L \text{--} \log M$ relation are the most accurate, as the luminosity is the most constant of the three magnitudes. 
@@ -187,17 +189,17 @@ By equating the different equations of state we can find the boundaries between 
 
 We present now a thorough analysis of the evolution of the 4$\,$M$_\odot$ stellar model. Relevant stellar magnitudes are represented in Figure \ref{fig:ex4}. The --coarse-grained-- phases of stellar evolution are:
 \begin{itemize}
-    \item \textbf{Main Sequence (MS)} (A$\rightarrow$B): The star steadily burns H in its core through the CNO cycle. Instead of defining the MS lifetime as the time it takes for the H abundance to drop below an insignificant H-exhaustion cutoff $\varepsilon=10^{-3}$ (as done in Section 2.1), we set $\varepsilon=0.03$. This way we differentiate the MS from the Hook (B$\rightarrow$C) (see next bullet point). We find that the star is in its MS from 1.43 to 151.28 Myr, corresponding to a MS lifetime of $149.85$ Myr. The nucleus contracts and heats up, as $\rho_c$ and $T_c$ steadily increase. $L$ increases and $T_eff$ decreases. The radius \footnote{Not provided in the model data. It is computed using Stefan-Boltzmann Law: $L=4\pi R^2 T_{\rm eff}^4$.} $R$ increases slowly from $2.15$ to $4.69 \, {\rm R}_\odot$.
-    \item \textbf{Hook} (B$\rightarrow$C): Last stage of H burning as the star contracts in a Kelvin-Helmontz timescale. $R$ decreases from $4.69$ to $4.16 \, {\rm R}_\odot$ with its consequent increase in $T_{\rm eff}$, which creates a hook-like bend in the HR diagram. $T_c$ and $\rho_c$ increase proceed. The star is in this phase from 151.28 to 153.44 Myr, lasting $2.61$ Myr.
-    \item \textbf{Hertzprung Gap (HG)} (C$\rightarrow$D): Hydrogen has exhausted in the core and shell H burning proceeds. The core stars collapsing and the envelope of the star expands, with $R$ increasing from $4.16$ to $18.63 \, {\rm R}_\odot$. As core burning has stopped, and due to out-of-equilibrium processes $L$ decreases. We identify the end of this phase when $L$ starts to increase again. The star is in this phase from 153.44 to 156.22 Myr, lasting $2.78$ Myr.
-    \item \textbf{Red Giant Branch (RGB)} (D$\rightarrow$E): The core keeps contracting and heating up. $R$ continues to increase rapidly from $18.63$ to $50.74 \, {\rm R}_\odot$ as the star's envelope expands. As $T_{\rm eff}$ is roughly constant, $L$ increases with $R$. This phase ends when the core has heat up enough to burn He. The star is in this phase from 156.22 to 156.94 Myr, lasting $0.72$ Myr.
-    \item  \textbf{Blue Loop (BL)} (E$\rightarrow$F): The core starts burning He. C and N abundances increase. It is a complex phase. TThe star performs a loop towards the blue region of the HR diagram and ends up in roughly the same place it started from. $R$ decreases from 50.74 to 31.47 ${\rm R}_\odot$. This phase ends when the core runs out of He. The star is in this phase from 156.94 to 194.48 Myr, lasting $37.54$ Myr.
+    \item \textbf{Main Sequence (MS)} (A$\rightarrow$B): The star steadily burns H in its core through the CNO cycle. Instead of defining the MS lifetime as the time it takes for the H abundance to drop below an insignificant H-exhaustion cutoff $\varepsilon=10^{-3}$ (as done in Section 2.1), we set $\varepsilon=0.03$. This way we differentiate the MS from the Hook (B$\rightarrow$C) (see next bullet point). We find that the star is in its MS from 1.43 to 151.28 Myr, corresponding to a MS lifetime of $149.85$ Myr. The nucleus contracts and heats up, as $\rho_c$ and $T_c$ steadily increase. $L$ increases and $T_{\rm eff}$ decreases. The radius \footnote{Not provided in the model data. It is computed using Stefan-Boltzmann Law: $L=4\pi R^2 T_{\rm eff}^4$.} $R$ increases slowly from $2.15$ to $4.69 \, {\rm R}_\odot$.
+    \item \textbf{Hook} (B$\rightarrow$C): Last stage of H burning as the star contracts in a Kelvin-Helmholtz timescale. $R$ decreases from $4.69$ to $4.16 \, {\rm R}_\odot$ with its consequent increase in $T_{\rm eff}$, which creates a hook-like bend in the HR diagram. $T_c$ and $\rho_c$ increase proceeds. The star is in this phase from 151.28 to 153.44 Myr, lasting $2.61$ Myr.
+    \item \textbf{Hertzprung Gap (HG)} (C$\rightarrow$D): Hydrogen has exhausted in the core and shell H burning proceeds. The core stars collapsing and the envelope of the star expands due to the mirror effect, with $R$ increasing from $4.16$ to $18.63 \, {\rm R}_\odot$. As core burning has stopped, and due to out-of-equilibrium processes, $L$ decreases. We identify the end of this phase when $L$ starts to increase again. The star is in this phase from 153.44 to 156.22 Myr, lasting $2.78$ Myr.
+    \item \textbf{Red Giant Branch (RGB)} (D$\rightarrow$E): The core keeps contracting and heating up. $R$ continues to increase rapidly from $18.63$ to $50.74 \, {\rm R}_\odot$ as the star's envelope expands. As $T_{\rm eff}$ is roughly constant, $L$ increases with $R$. This phase ends when the core has heated up enough to burn He. This is a short-lived phase: the star is in this phase from 156.22 to 156.94 Myr, lasting $0.72$ Myr.
+    \item  \textbf{Blue Loop (BL)} (E$\rightarrow$F): The core starts burning He. C and N abundances increase. It is a complex phase. The star performs a loop towards the blue region of the HR diagram and ends up in roughly the same place it started from. $R$ decreases from 50.74 to 31.47 ${\rm R}_\odot$. This phase ends when the core runs out of He. The star is in this phase from 156.94 to 194.48 Myr, lasting $37.54$ Myr.
     \item  \textbf{Asymptotic Giant Branch (AGB)} (F onwards): He burning stops. The core contracts and the envelope rapidly expands. $R$ and $L$ rapidly increase. The simulation run ends early in this phase, at 195.53 Myr age.
 \end{itemize}
 
 The radius $R$ rapidly increases in two phases: during the HG$+$RGB and during the AGB. In both phases the core contracts and the envelope expands due to the mirror effect. In the HG$+$RGB the core contracts due to the exhaustion of H, and in the AGB the core contracts due to the exhaustion of He.
 
-The model run ends early in the AGB phase. During this phase and onwards, the star has exhausted H and He in its core and burns these elements in shells surrounding a core mainly composed of C and O. The star begins a period of pulsations with recurrent surges in He burning and material being expelled from the outer layers of the star. A planetary nebulae forms. As the planetary nebulae disperses, the core of the star contracts and becomes a white dwarf.
+The model run ends early in the AGB phase. During this phase and onwards, stellar evolution theory tells us that as the star has exhausted H and He in its core, it burns these elements in shells surrounding a core mainly composed of C and O. The star would then begin a period of pulsations with recurrent surges in He burning and material being expelled from the outer layers of the star. A planetary nebulae forms. As the planetary nebulae disperses, the core of the star finally contracts and becomes a white dwarf.
 
 \begin{figure*}[!ht]
     \centering

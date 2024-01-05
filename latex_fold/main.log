@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  31 DEC 2023 02:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  2 JAN 2024 01:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -723,6 +723,11 @@ Package caption Info: hyperref package is loaded.
 \WF@box=\box81
 \WF@everypar=\toks42
 Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ) (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
@@ -763,24 +768,24 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count337
@@ -800,7 +805,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring ON on input line 43.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -846,19 +851,24 @@ Package caption Info: End \AtBeginDocument code.
 <logos/logo_ull.jpg, id=38, 815.29594pt x 204.765pt>
 File: logos/logo_ull.jpg Graphic file (type jpg)
 <use logos/logo_ull.jpg>
-Package pdftex.def Info: logos/logo_ull.jpg  used on input line 45.
+Package pdftex.def Info: logos/logo_ull.jpg  used on input line 46.
 (pdftex.def)             Requested size: 100.1522pt x 25.15189pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 45.
+(Font)              using `OT1/cmss/bx/n' instead on input line 46.
 
-Package mdframed Info: mdframed works in twoside mode on input line 47.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 46.
+(C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+Package mdframed Info: mdframed works in twoside mode on input line 48.
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 49.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 50.
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 51.
+ mdframed uses option nobreak mdframed on input line 52.
 CUTED [- LAST -]
 Extra skip:0.0pt
 Left:0.0pt/0.0pt
@@ -873,12 +883,12 @@ CUTED [leftcolumn badness]: 0
 CUTED [rightcolumn badness]: 0
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 57.
+(Font)              using `OT1/cmss/bx/n' instead on input line 58.
 
 (sections/intro.tex)
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 60.
+(Font)              using `OT1/cmss/bx/n' instead on input line 61.
 
 (sections/results.tex
 
@@ -942,9 +952,13 @@ Package pdftex.def Info: ../figures/abundances.png  used on input line 4.
 (pdftex.def)             Requested size: 245.38435pt x 126.65771pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 21.
+(Font)              using `OT1/cmss/bx/n' instead on input line 23.
 
-LaTeX Font Info:    Calculating math sizes for size <9.08852> on input line 21.
+LaTeX Font Info:    Calculating math sizes for size <9.08852> on input line 23.
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.54425> not available
+(Font)              size <5> substituted on input line 23.
+
 [1{C:/Users/Pere/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
@@ -952,28 +966,28 @@ LaTeX Font Info:    Calculating math sizes for size <9.08852> on input line 21.
 <../figures/HR_plot.png, id=69, 146.949pt x 181.6386pt>
 File: ../figures/HR_plot.png Graphic file (type png)
 <use ../figures/HR_plot.png>
-Package pdftex.def Info: ../figures/HR_plot.png  used on input line 25.
+Package pdftex.def Info: ../figures/HR_plot.png  used on input line 27.
 (pdftex.def)             Requested size: 245.38435pt x 303.33258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 70.
+(Font)              using `OT1/cmss/bx/n' instead on input line 72.
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 82.
 (C:\Users\Pere\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 80.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 81.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 82.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 83.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 84.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -984,13 +998,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 83.
+(Font)              using `OT1/cmss/bx/n' instead on input line 85.
 
 [2{C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../figures/HR_plot.png>]
 <../figures/regressions.png, id=91, 424.4658pt x 138.2766pt>
 File: ../figures/regressions.png Graphic file (type png)
 <use ../figures/regressions.png>
-Package pdftex.def Info: ../figures/regressions.png  used on input line 129.
+Package pdftex.def Info: ../figures/regressions.png  used on input line 131.
 (pdftex.def)             Requested size: 500.7687pt x 163.14384pt.
 
 
@@ -1005,7 +1019,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 137.
+(Font)              using `OT1/cmss/bx/n' instead on input line 139.
 
 [3]
 
@@ -1017,115 +1031,115 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 137.
+(Font)              using `OT1/cmss/bx/n' instead on input line 139.
 
 [4 <../figures/regressions.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 140.
+(Font)              using `OT1/cmss/bx/n' instead on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\log' on input line 140.
+(hyperref)                removing `\log' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 140.
+(hyperref)                removing `subscript' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\log' on input line 140.
+(hyperref)                removing `\log' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 140.
+(hyperref)                removing `\rho' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 140.
+(hyperref)                removing `subscript' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 142.
 
 <../figures/t_rho_tracks.png, id=111, 181.6386pt x 181.8795pt>
 File: ../figures/t_rho_tracks.png Graphic file (type png)
 <use ../figures/t_rho_tracks.png>
-Package pdftex.def Info: ../figures/t_rho_tracks.png  used on input line 145.
+Package pdftex.def Info: ../figures/t_rho_tracks.png  used on input line 147.
 (pdftex.def)             Requested size: 245.38435pt x 245.72653pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 152.
+(Font)              using `OT1/cmss/bx/n' instead on input line 154.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 157.
+(Font)              using `OT1/cmss/bx/n' instead on input line 159.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 165.
+(Font)              using `OT1/cmss/bx/n' instead on input line 167.
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 165--166
+Underfull \hbox (badness 2213) in paragraph at lines 167--168
 []\OT1/cmss/bx/n/10.95 Relativistic Elec-tron De-gen-er-acy Regime\OT1/cmss/m/n/10.95 :
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 173.
+(Font)              using `OT1/cmss/bx/n' instead on input line 175.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 186.
+(Font)              using `OT1/cmss/bx/n' instead on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 186.
+(hyperref)                removing `math shift' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 186.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.8254pt
-(hyperref)                removed on input line 186.
+(hyperref)                removed on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 186.
+(hyperref)                removing `math shift' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 186.
+(hyperref)                removing `math shift' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 186.
+(hyperref)                removing `subscript' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\odot' on input line 186.
+(hyperref)                removing `\odot' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 186.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 190.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 191.
+(hyperref)                removing `math shift' on input line 188.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 192.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 193.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 194.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1136,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 193.
+(Font)              using `OT1/cmss/bx/n' instead on input line 195.
 
 [5
 
@@ -1144,48 +1158,48 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
  <../figures/t_rho_tracks.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 193.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 194.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 195.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 196.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 197.
 
 <../figures/ex4.png, id=130, 358.4592pt x 267.8808pt>
 File: ../figures/ex4.png Graphic file (type png)
 <use ../figures/ex4.png>
-Package pdftex.def Info: ../figures/ex4.png  used on input line 204.
+Package pdftex.def Info: ../figures/ex4.png  used on input line 206.
 (pdftex.def)             Requested size: 500.7687pt x 374.24983pt.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 63.
+(Font)              using `OT1/cmss/bx/n' instead on input line 64.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 \OT1/cmtt/m/n/10.95 pererossello / stellar _ evolution _ models$[][]\OT1/cmss/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 \OT1/cmss/m/n/10.95 Two lit-tle bonus videos for the evo-lu-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 \OT1/cmss/m/n/10.95 of a $1 M[] [] 7 M[]$ can be found in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 \OT1/cmss/m/n/10.95 the [][]$\OT1/cmtt/m/n/10.95 evolution _ one _ solar _ mass . mp4$[][] \OT1/cmss/m/n/10.95 and
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 64--65
+Underfull \hbox (badness 6188) in paragraph at lines 65--66
 [][]$\OT1/cmtt/m/n/10.95 evolution _ seven _ solar _ mass . mp4$[][] \OT1/cmss/m/n/10.95 files in the
  []
 
@@ -1198,7 +1212,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 66.
+(Font)              using `OT1/cmss/bx/n' instead on input line 67.
 
 [6]
 
@@ -1210,12 +1224,12 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 68.
+(Font)              using `OT1/cmss/bx/n' instead on input line 69.
 
 [7 <../figures/ex4.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 72.
+(Font)              using `OT1/cmss/bx/n' instead on input line 73.
 
 (main.bbl
 
@@ -1228,7 +1242,28 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
 
 )
 
-Package caption Warning: Unused \captionsetup[table] on input line 107.
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 15.2pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.2pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 78.
+
+[8
+
+
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 81.
+
+(sections/appendix.tex)
+
+Package caption Warning: Unused \captionsetup[table] on input line 109.
 See the caption package documentation for explanation.
 
 
@@ -1242,30 +1277,33 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 103.
 
-[8
-
-
+[9
 
 ] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45575pt have occurred.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 136B479926116383B097160D1DF5930C;1230.
  ) 
 Here is how much of TeX's memory you used:
- 27701 strings out of 475551
- 527963 string characters out of 5763026
+ 27964 strings out of 475551
+ 531329 string characters out of 5763026
  1947238 words of memory out of 5000000
- 48404 multiletter control sequences out of 15000+600000
- 583952 words of font info for 126 fonts, out of 8000000 for 9000
+ 48645 multiletter control sequences out of 15000+600000
+ 588660 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,15n,143p,1062b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (8 pages, 685508 bytes).
+ 137i,20n,143p,1062b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Pere\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi657\wasy10.pk><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Pere/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (9 pages, 691585 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
