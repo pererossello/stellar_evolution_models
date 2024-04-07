@@ -50,7 +50,6 @@
 %% Some style parameters
 \setlength{\parindent}{0.2in}
 \newcommand{\spacing}[1]{\renewcommand{\baselinestretch}{#1}\large\normalsize}
-
 \newcommand{\header}[1]{\def\@header{#1}}
 
 \def\@maketitle{%
